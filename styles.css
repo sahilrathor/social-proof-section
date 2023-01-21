@@ -1,13 +1,20 @@
-.body{
+.body-container{
+    max-width: 1440px;
+    max-height: 800px;
+    margin: auto;
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    position: relative;
 }
+
 
 .bg-image1{
     position: absolute;
 }
 .bg-image2{
     position: absolute;
-    /* top: 5px; */
-    bottom: 0px;
+    top: 125px;
+    /* bottom: 0px; */
     left: 400px;
 }
 .container-fluid{
@@ -19,14 +26,6 @@
     padding: 0;
 }
 
-.body-container{
-    max-width: 1440px;
-    max-height: 800px;
-    margin: auto;
-    font-family: 'League Spartan', sans-serif;
-    margin: 0;
-    position: relative;
-}
 #features .container-fluid{
     /* width: 80%; */
     padding: 100px 0 30px;
@@ -52,14 +51,18 @@
 }
 .heading{
     color:  hsl(300, 43%, 22%);
-    font-size: 3em;
-    font-weight: 700;
-    line-height: .9;
-    width: 330px;
-    margin: 15px 0px 0 0;
+    font-size: 3.2em;
+    font-weight: 900;
+    /* font-weight: bold; */
+    line-height: 1;
+    /* letter-spacing: 0px; */
+    width: 350px;
+    margin: 15px 0px 15px 0;
 }
 .head-para{
     color: hsl(303, 10%, 53%);
+    font-size: 1em;
+    font-weight: bold;
     line-height: 1.4;
     width: 400px;
     margin: 20px 0px 0 0;
@@ -176,15 +179,10 @@
 }
 
 
-#footer{
-    position: relative;
-    /* top: 100px; */
-    /* background-color: red; */
-}
 .attribution{
     position: absolute;
     left: 2%;
-    /* bottom: 5%; */
+    /* bottom: 0%; */
 }
 .attribution a{
     /* font-weight: 700; */
